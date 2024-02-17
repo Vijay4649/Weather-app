@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    margin: 25px;
+
+}
+.weather{
+    display: none;
+}
+
+.error{
+    color: white;
+ text-align: left;
+margin-left: 25px;
+    display: none;
+}
+main h1 {
+    font-size: 60px;
+}
+
+.main_container {
+    margin: 10% 15% 15% 15%;
+    /* for making the container center*/
+    padding: 15px;
+    background-color: rgb(89, 108, 108);
+    border-radius: 15px;
+}
+
+.search_div {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+input {
+    height: 67px;
+    width: 50%;
+    margin: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(103, 116, 116);
+}
+
+input,
+button {
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+button {
+    height: 70px;
+    margin: 10px;
+}
+
+button img {
+    padding: 8px;
+}
+
+/* //// section 2 start  */
+
+.city_div {
+    margin: 30px 0px 30px 0px;
+    color: white;
+    text-align: center;
+}
+
+.city_div img {
+    height: 150px;
+}
+
+.city_div h2 {
+    font-size: 76px;
+}
+
+.city_div p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* ========== section 3 start here */
+.behavior_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.humidity_div,
+.speed_div {
+    display: flex;
+}
+
+.section_3 {
+    margin-left: 20px;
+    color: white;
+}
+
+.section_3 h2 {
+    font-size: 38px;
+}
+
+.section_3 p {
+    font-size: 25px;
+}
+
+
+/* /////======================== now we see media queries  */
+@media screen and (max-width:500px) {
+    main h1 {
+        font-size: 30px;
+    }
+
+    .main_container {
+        margin: 10%;
+        /* for making the container center*/
+        padding: 15px;
+        background-color: rgb(89, 108, 108);
+        border-radius: 15px;
+    }
+
+    .search_div {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px 15px 0px;
+    }
+
+    input {
+        height: 35px;
+        width: 50%;
+        margin: 6px;
+        padding-left: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(103, 116, 116);
+    }
+
+    input,
+    button {
+        border-radius: 15px;
+        border: 1px solid transparent;
+    }
+
+    button {
+        height: 38px;
+        margin: 6px;
+    }
+
+    button img {
+        height: 22px;
+
+    }
+
+    /* //// section 2 start  */
+
+    .city_div {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .city_div img {
+        height: 120px;
+    }
+
+    .city_div h2 {
+        font-size: 40px;
+    }
+
+    .city_div p {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    /* ========== section 3 start here */
+    .behavior_div {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .humidity_div,
+    .speed_div {
+        display: inline;
+    }
+
+    .humidity_div img {
+        height: 35px;
+    }
+
+    .speed_div img {
+        height: 30px;
+    }
+
+    .section_3 h2 {
+        font-size: 28px;
+    }
+
+    .section_3 p {
+        font-size: 18px;
+    }
+
+
+
+
+}
